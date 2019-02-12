@@ -214,20 +214,6 @@ class EventCalendar extends React.Component {
     }
 }
 
-EventCalendar.propTypes = {
-    daysOfTheWeek: React.PropTypes.array,
-    events: React.PropTypes.array,
-    maxEventSlots: React.PropTypes.number,
-    month: React.PropTypes.number.isRequired,
-    onEventClick: React.PropTypes.func,
-    onEventMouseOut: React.PropTypes.func,
-    onEventMouseOver: React.PropTypes.func,
-    onDayClick: React.PropTypes.func,
-    wrapTitle: React.PropTypes.bool,
-    year: React.PropTypes.number.isRequired,
-
-};
-
 EventCalendar.defaultProps = {
     daysOfTheWeek: [
         'Sunday',

@@ -264,20 +264,6 @@ var EventCalendar = function (_React$Component) {
     return EventCalendar;
 }(_react2.default.Component);
 
-EventCalendar.propTypes = {
-    daysOfTheWeek: _react2.default.PropTypes.array,
-    events: _react2.default.PropTypes.array,
-    maxEventSlots: _react2.default.PropTypes.number,
-    month: _react2.default.PropTypes.number.isRequired,
-    onEventClick: _react2.default.PropTypes.func,
-    onEventMouseOut: _react2.default.PropTypes.func,
-    onEventMouseOver: _react2.default.PropTypes.func,
-    onDayClick: _react2.default.PropTypes.func,
-    wrapTitle: _react2.default.PropTypes.bool,
-    year: _react2.default.PropTypes.number.isRequired
-
-};
-
 EventCalendar.defaultProps = {
     daysOfTheWeek: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
     events: [],

@@ -26,13 +26,6 @@ export default class CalendarDay extends React.Component {
     }
 }
 
-CalendarDay.propTypes = {
-    day: React.PropTypes.object.isRequired,
-    isToday: React.PropTypes.bool,
-    events: React.PropTypes.array,
-    onClick: React.PropTypes.func,
-};
-
 CalendarDay.defaultProps = {
     onClick: () => {},
 }

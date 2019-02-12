@@ -72,13 +72,6 @@ var CalendarDay = function (_React$Component) {
 exports.default = CalendarDay;
 
 
-CalendarDay.propTypes = {
-    day: _react2.default.PropTypes.object.isRequired,
-    isToday: _react2.default.PropTypes.bool,
-    events: _react2.default.PropTypes.array,
-    onClick: _react2.default.PropTypes.func
-};
-
 CalendarDay.defaultProps = {
     onClick: function onClick() {}
 };

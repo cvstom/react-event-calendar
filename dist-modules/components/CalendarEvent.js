@@ -91,15 +91,6 @@ var CalendarEvent = function (_React$Component) {
     return CalendarEvent;
 }(_react2.default.Component);
 
-CalendarEvent.propTypes = {
-    day: _react2.default.PropTypes.object.isRequired,
-    eventData: _react2.default.PropTypes.oneOfType([_react2.default.PropTypes.object, _react2.default.PropTypes.bool]),
-    onClick: _react2.default.PropTypes.func,
-    onMouseOut: _react2.default.PropTypes.func,
-    onMouseOver: _react2.default.PropTypes.func,
-    wrapTitle: _react2.default.PropTypes.bool
-};
-
 CalendarEvent.defaultProps = {
     onClick: function onClick() {},
     onMouseOut: function onMouseOut() {},

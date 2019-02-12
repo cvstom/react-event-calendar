@@ -20,8 +20,4 @@ var CalendarTitle = function CalendarTitle(_ref) {
     );
 };
 
-CalendarTitle.propTypes = {
-    title: _react2.default.PropTypes.string.isRequired
-};
-
 exports.default = CalendarTitle;

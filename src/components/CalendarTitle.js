@@ -8,8 +8,4 @@ const CalendarTitle = ({title}) => {
     )
 }
 
-CalendarTitle.propTypes = {
-  title: React.PropTypes.string.isRequired,
-};
-
 export default CalendarTitle;

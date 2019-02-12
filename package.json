@@ -19,7 +19,7 @@
     "prepublish": "npm run dist:modules",
     "postpublish": "npm run gh-pages && npm run gh-pages:deploy"
   },
-  "main": "src",
+  "main": "dist-modules",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "babel-cli": "^6.26.0",
